@@ -21,13 +21,13 @@ if(!require(data.table))
 if(!require(digest))  
   install.packages("digest",repos='https://cloud.r-project.org/')
 
-if(!require(pathview))
+if(!require(rCGH))
   BiocInstaller::biocLite("rCGH")
 
-if(!require(pathview))
+if(!require(cytoScanLinux))
   BiocInstaller::biocLite("cytoScanLinux")
 
-if(!require(pathview))
+if(!require(affxparser))
   BiocInstaller::biocLite("affxparser")
 
 if(!require(R.utils))  
